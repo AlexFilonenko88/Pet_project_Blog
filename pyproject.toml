@@ -1,0 +1,4 @@
+[tool.ruff.lint.per-file-ignores]
+"blog/models.py" = ["RUF012"]
+"blog/migrations/*.py" = ["RUF012"]
+"blog/admin.py" = ["RUF012"]
